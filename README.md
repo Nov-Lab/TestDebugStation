@@ -1,60 +1,60 @@
-# TestDebugStation ƒAƒvƒŠƒP[ƒVƒ‡ƒ“
+# TestDebugStation ã‚¢ãƒ—ãƒªã‚±ãƒ¼ã‚·ãƒ§ãƒ³
 
-ƒfƒoƒbƒOŽx‰‡ƒAƒvƒŠ DebugStation —p‚ÌƒeƒXƒgƒvƒƒWƒFƒNƒg‚Å‚·B
-
-
-# “®ìŠÂ‹«
-
-- Windows 8.1ˆÈ~
-- .NET Framework 4.0 ˆÈ~A‚Ü‚½‚ÍŒÝŠ·«‚Ì‚ ‚é .NET ŽÀ‘•
+ãƒ‡ãƒãƒƒã‚°æ”¯æ´ã‚¢ãƒ—ãƒª DebugStation ç”¨ã®ãƒ†ã‚¹ãƒˆãƒ—ãƒ­ã‚¸ã‚§ã‚¯ãƒˆã§ã™ã€‚
 
 
-# ˆË‘¶ƒŠƒ|ƒWƒgƒŠ
+# å‹•ä½œç’°å¢ƒ
 
-- [DebugStation](https://github.com/Nov-Lab/DebugStation) ƒAƒvƒŠƒP[ƒVƒ‡ƒ“
-- [NovLab.Base](https://github.com/Nov-Lab/NovLab.Base) ƒNƒ‰ƒXƒ‰ƒCƒuƒ‰ƒŠ
-- [NovLab.Windows.Forms](https://github.com/Nov-Lab/NovLab.Windows.Forms) ƒNƒ‰ƒXƒ‰ƒCƒuƒ‰ƒŠ
+- Windows 8.1ä»¥é™
+- .NET Framework 4.0 ä»¥é™ã€ã¾ãŸã¯äº’æ›æ€§ã®ã‚ã‚‹ .NET å®Ÿè£…
 
-### ƒ[ƒJƒ‹ƒŠƒ|ƒWƒgƒŠ‚É‚¨‚¯‚éƒtƒHƒ‹ƒ_[”z’u‚É‚Â‚¢‚Ä
 
-–{ƒŠƒ|ƒWƒgƒŠ‚Ìƒ\ƒŠƒ…[ƒVƒ‡ƒ“‚ÆAˆË‘¶ƒŠƒ|ƒWƒgƒŠ‚Ìƒ\ƒŠƒ…[ƒVƒ‡ƒ“‚ÍAˆÈ‰º‚Ì‚æ‚¤‚É“¯‚¶eƒtƒHƒ‹ƒ_[‚Ì‰º‚Ö”z’u‚µ‚Ä‚­‚¾‚³‚¢B
+# ä¾å­˜ãƒªãƒã‚¸ãƒˆãƒª
+
+- [DebugStation](https://github.com/Nov-Lab/DebugStation) ã‚¢ãƒ—ãƒªã‚±ãƒ¼ã‚·ãƒ§ãƒ³
+- [NovLab.Base](https://github.com/Nov-Lab/NovLab.Base) ã‚¯ãƒ©ã‚¹ãƒ©ã‚¤ãƒ–ãƒ©ãƒª
+- [NovLab.Windows.Forms](https://github.com/Nov-Lab/NovLab.Windows.Forms) ã‚¯ãƒ©ã‚¹ãƒ©ã‚¤ãƒ–ãƒ©ãƒª
+
+### ãƒ­ãƒ¼ã‚«ãƒ«ãƒªãƒã‚¸ãƒˆãƒªã«ãŠã‘ã‚‹ãƒ•ã‚©ãƒ«ãƒ€ãƒ¼é…ç½®ã«ã¤ã„ã¦
+
+æœ¬ãƒªãƒã‚¸ãƒˆãƒªã®ã‚½ãƒªãƒ¥ãƒ¼ã‚·ãƒ§ãƒ³ã¨ã€ä¾å­˜ãƒªãƒã‚¸ãƒˆãƒªã®ã‚½ãƒªãƒ¥ãƒ¼ã‚·ãƒ§ãƒ³ã¯ã€ä»¥ä¸‹ã®ã‚ˆã†ã«åŒã˜è¦ªãƒ•ã‚©ãƒ«ãƒ€ãƒ¼ã®ä¸‹ã¸é…ç½®ã—ã¦ãã ã•ã„ã€‚
 ```
-ƒeƒtƒHƒ‹ƒ_[„
-  „¥ DebugStation ƒ\ƒŠƒ…[ƒVƒ‡ƒ“
-  „¥ NovLab.Base ƒ\ƒŠƒ…[ƒVƒ‡ƒ“
-  „¥ NovLab.Windows.Forms ƒ\ƒŠƒ…[ƒVƒ‡ƒ“
-  „¤ TestDebugStation ƒ\ƒŠƒ…[ƒVƒ‡ƒ“
+ï¼œè¦ªãƒ•ã‚©ãƒ«ãƒ€ãƒ¼ï¼ž
+  â”œ DebugStation ã‚½ãƒªãƒ¥ãƒ¼ã‚·ãƒ§ãƒ³
+  â”œ NovLab.Base ã‚½ãƒªãƒ¥ãƒ¼ã‚·ãƒ§ãƒ³
+  â”œ NovLab.Windows.Forms ã‚½ãƒªãƒ¥ãƒ¼ã‚·ãƒ§ãƒ³
+  â”” TestDebugStation ã‚½ãƒªãƒ¥ãƒ¼ã‚·ãƒ§ãƒ³
 ```
 
 
-# Žg‚¢•û
+# ä½¿ã„æ–¹
 
-DebugStation ‚ð‹N“®‚µ‚½ó‘Ô‚Å–{ƒAƒvƒŠƒP[ƒVƒ‡ƒ“‚ðŽÀs‚µAƒeƒXƒg€–Ú‚ð‘I‚ñ‚ÅŽÀs‚µ‚Ü‚·B
-
-
-# ƒtƒHƒ‹ƒ_[\¬
-
-- `binfile` FDEBUGƒrƒ‹ƒh‚ÅƒRƒ“ƒpƒCƒ‹Ï‚Ý‚ÌƒoƒCƒiƒŠ[ƒtƒ@ƒCƒ‹‚Å‚·B
-- `TestDebugStation` FTestDebugStation ‚ÌƒvƒƒWƒFƒNƒg‚Å‚·B
+DebugStation ã‚’èµ·å‹•ã—ãŸçŠ¶æ…‹ã§æœ¬ã‚¢ãƒ—ãƒªã‚±ãƒ¼ã‚·ãƒ§ãƒ³ã‚’å®Ÿè¡Œã—ã€ãƒ†ã‚¹ãƒˆé …ç›®ã‚’é¸ã‚“ã§å®Ÿè¡Œã—ã¾ã™ã€‚
 
 
-# ƒ‰ƒCƒZƒ“ƒX
+# ãƒ•ã‚©ãƒ«ãƒ€ãƒ¼æ§‹æˆ
 
-–{ƒ\ƒtƒgƒEƒFƒA‚ÍAMITƒ‰ƒCƒZƒ“ƒX‚ÉŠî‚Ã‚¢‚Äƒ‰ƒCƒZƒ“ƒX‚³‚ê‚Ä‚¢‚Ü‚·B
+- `binfile` ï¼šDEBUGãƒ“ãƒ«ãƒ‰ã§ã‚³ãƒ³ãƒ‘ã‚¤ãƒ«æ¸ˆã¿ã®ãƒã‚¤ãƒŠãƒªãƒ¼ãƒ•ã‚¡ã‚¤ãƒ«ã§ã™ã€‚
+- `TestDebugStation` ï¼šTestDebugStation ã®ãƒ—ãƒ­ã‚¸ã‚§ã‚¯ãƒˆã§ã™ã€‚
 
-‚½‚¾‚µA‰ü•Ï‚·‚éê‡‚ÍAnamespace ‚Ì–¼‘O‚ð•Ï‚¦‚Äd•¡‚â¬—‚ð”ð‚¯‚é‚±‚Æ‚ð‹­‚­„§‚µ‚Ü‚·B
+
+# ãƒ©ã‚¤ã‚»ãƒ³ã‚¹
+
+æœ¬ã‚½ãƒ•ãƒˆã‚¦ã‚§ã‚¢ã¯ã€MITãƒ©ã‚¤ã‚»ãƒ³ã‚¹ã«åŸºã¥ã„ã¦ãƒ©ã‚¤ã‚»ãƒ³ã‚¹ã•ã‚Œã¦ã„ã¾ã™ã€‚
+
+ãŸã ã—ã€æ”¹å¤‰ã™ã‚‹å ´åˆã¯ã€namespace ã®åå‰ã‚’å¤‰ãˆã¦é‡è¤‡ã‚„æ··ä¹±ã‚’é¿ã‘ã‚‹ã“ã¨ã‚’å¼·ãæŽ¨å¥¨ã—ã¾ã™ã€‚
 
 
-# ŠJ”­ŠÂ‹«
+# é–‹ç™ºç’°å¢ƒ
 
-## ŠJ”­ƒc[ƒ‹ASDK‚È‚Ç
+## é–‹ç™ºãƒ„ãƒ¼ãƒ«ã€SDKãªã©
 - Visual Studio Community 2019
-  - ƒ[ƒNƒ[ƒhF.NET ƒfƒXƒNƒgƒbƒvŠJ”­
+  - ãƒ¯ãƒ¼ã‚¯ãƒ­ãƒ¼ãƒ‰ï¼š.NET ãƒ‡ã‚¹ã‚¯ãƒˆãƒƒãƒ—é–‹ç™º
 
-## Œ¾Œê
+## è¨€èªž
 - C#
 
 
-# ‚»‚Ì‘¼
+# ãã®ä»–
 
-Nov-Lab “ÆŽ©‚Ì‹Lqƒ‹[ƒ‹‚Æ—pŒê‚É‚Â‚¢‚Ä‚Í [NovLabRule.md](https://github.com/Nov-Lab/Nov-Lab/NovLabRule.md) ‚ðŽQÆ‚µ‚Ä‚­‚¾‚³‚¢B
+Nov-Lab ç‹¬è‡ªã®è¨˜è¿°ãƒ«ãƒ¼ãƒ«ã¨ç”¨èªžã«ã¤ã„ã¦ã¯ [NovLabRule.md](https://github.com/Nov-Lab/Nov-Lab/blob/main/NovLabRule.md) ã‚’å‚ç…§ã—ã¦ãã ã•ã„ã€‚
