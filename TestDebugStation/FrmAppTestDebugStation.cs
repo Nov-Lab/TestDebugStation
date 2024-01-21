@@ -1,6 +1,6 @@
 ﻿// @(h)FrmAppTestDebugStation.cs ver 0.00 ( '22.04.20 Nov-Lab ) 作成開始
 // @(h)FrmAppTestDebugStation.cs ver 0.51 ( '22.05.19 Nov-Lab ) ベータ版完成
-// @(h)FrmAppTestDebugStation.cs ver 0.51a( '22.05.24 Nov-Lab ) その他  ：コメント整理
+// @(h)FrmAppTestDebugStation.cs ver 0.51a( '24.01.21 Nov-Lab ) 仕変対応：NovLab.Base.TestMethodInfo の仕様変更に対応した。機能変更なし。
 
 // @(s)
 // 　【メイン画面】Test for デバッグステーションのメイン画面です。
@@ -94,7 +94,7 @@ namespace TestDebugStation
             foreach (var typeInfo in Assembly.GetExecutingAssembly().GetTypes())
             {                                                           //// 実行中アセンブリ内の型情報を繰り返す
                 var testMethodinfos =                                   /////  手動テスト用メソッド情報を列挙する
-                    TestMethodInfo.EnumManualTest(typeInfo);
+                    TestMethodInfo.EnumTestMethod(typeInfo);
                 foreach (var info in testMethodinfos)
                 {                                                       /////  手動テスト用メソッド情報配列を繰り返す
                     LstTestMenu.Items.Add(info);                        //////   テスト項目リストボックスに追加する
@@ -224,7 +224,7 @@ namespace TestDebugStation
             }
 
             var info = (TestMethodInfo)LstTestMenu.SelectedItem;        //// 選択中項目からテストメソッド情報を取得する
-            ManualTestMethodAttribute.Invoke(info.methodInfo);          //// 手動テスト用メソッドを実行する
+            info.Invoke();                                              //// 手動テスト用メソッドを実行する
 #endif
         }
 
