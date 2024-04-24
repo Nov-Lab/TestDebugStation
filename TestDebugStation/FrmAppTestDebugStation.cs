@@ -1,6 +1,7 @@
 ﻿// @(h)FrmAppTestDebugStation.cs ver 0.00 ( '22.04.20 Nov-Lab ) 作成開始
 // @(h)FrmAppTestDebugStation.cs ver 0.51 ( '22.05.19 Nov-Lab ) ベータ版完成
 // @(h)FrmAppTestDebugStation.cs ver 0.51a( '24.01.21 Nov-Lab ) 仕変対応：NovLab.Base.TestMethodInfo の仕様変更に対応した。機能変更なし。
+// @(h)FrmAppTestDebugStation.cs ver 0.51b( '24.04.24 Nov-Lab ) 仕変対応：NovLab.Base.TestMethodInfo の仕様変更に対応した。機能変更なし。
 
 // @(s)
 // 　【メイン画面】Test for デバッグステーションのメイン画面です。
@@ -224,7 +225,7 @@ namespace TestDebugStation
             }
 
             var info = (TestMethodInfo)LstTestMenu.SelectedItem;        //// 選択中項目からテストメソッド情報を取得する
-            info.Invoke();                                              //// 手動テスト用メソッドを実行する
+            info.InvokeAsync().Wait();                                  //// 手動テスト用メソッドを実行する
 #endif
         }
 
